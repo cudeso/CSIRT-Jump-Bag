@@ -1,0 +1,7 @@
+#fprobe default configuration file
+
+INTERFACE="eth0"
+FLOW_COLLECTOR="127.0.0.1:2055"
+
+#fprobe can't distinguish IP packet from other (e.g. ARP)
+OTHER_ARGS="-fip"
