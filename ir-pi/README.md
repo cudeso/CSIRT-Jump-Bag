@@ -1,3 +1,24 @@
+# Windows log files
+
+## Chainsaw
+
+Because Raspberry Pi is ARM architecture you cannot use one of the releases, you have to compile it.
+
+```
+git clone --recurse-submodules https://github.com/countercept/chainsaw.git
+cd chainsaw/
+cargo build --release
+```
+
+When finished, the binary is in target/release
+
+```
+cd target/release/
+./chainsaw hunt ../../evtx_attack_samples/ --rules ../../sigma_rules/ --mapping ../../mapping_files/sigma-mapping.yml
+```
+
+# Netflow / NFSEN / NFDUMP
+
 ## Install and Start
 
 Change 
@@ -27,6 +48,8 @@ $WWWGROUP = "www-data";
 `<path>/nfsen/bin/nfsen start`
 
 Then verify it's listening on the port defined in sources.
+
+It can take a couple of minutes (>5) before netflow data is displayed.
 
 ## Local (Linux) netflow generator
 
