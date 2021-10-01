@@ -1,4 +1,4 @@
-# Install and Start
+## Install and Start
 
 Change 
 
@@ -13,31 +13,32 @@ $WWWGROUP = "www-data";
 );
 ```
 
-Install dependencies
+#### Install dependencies
 
 `sudo apt-get install apache2 php libapache2-mod-php librrds-perl librrdp-perl librrd-dev libmailtools-perl build-essential autoconf rrdtool`
 
-Install Perl library
+#### Install Perl library
 `apt-get install libsocket6-perl`
 
-Run installer script
+#### Run installer script
 `./install.pl ./etc/nfsen.conf`
 
-Start
+#### Start
 `<path>/nfsen/bin/nfsen start`
 
 Then verify it's listening on the port defined in sources.
 
-# Local (Linux) netflow generator
+## Local (Linux) netflow generator
 
 Install **fprobe**
-`apt-get install fprobe``
+`apt-get install fprobe`
 
-# Patching
+
+## Patching
 
 Patch some files so that nfsen is able to run on Ubuntu 20+
 
-## libexec/NfSenRRD.pm
+### libexec/NfSenRRD.pm
 
 Change RRD version. Ubuntu 20+ comes with RRD version 1.7
 
@@ -48,7 +49,7 @@ Change RRD version. Ubuntu 20+ comes with RRD version 1.7
 > 	if ( $rrd_version >= 1.2 && $rrd_version < 1.8 ) {
 ```
 
-## libexec/NfProfile.pm
+### libexec/NfProfile.pm
 
 Fix 'live' profile hash
 
