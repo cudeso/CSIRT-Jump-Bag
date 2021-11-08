@@ -46,6 +46,9 @@ Review this checklist [before going on site](go-on-site.md)
 * * Pencils
 * * Notebook
 * * Flashlight
+* Network taps
+* * Network hub
+* * RS232 and RS485 taps
 
 ## Software
 * LiME
@@ -53,6 +56,13 @@ Review this checklist [before going on site](go-on-site.md)
 * Winpmem
 * FTK Imager
 * Nirsoft tools
+* tcpdump
+* Wireshark
+* portmon
+* dumpit
+* memoryze
+* Mandiant Redline
+* Volatility
 
 ## Pi-CSIRT
 * Raspberry Pi
