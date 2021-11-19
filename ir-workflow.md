@@ -46,7 +46,7 @@
 * - - Unusual registry entries
 * - - New startup applications
 * - - New scheduled tasks
-* - - Network activity to new  locations
+* - - Network activity to new locations
 * - - Activity different from baseline?
 * - System environment conditions
 * - - Known system patches missing?
@@ -180,17 +180,17 @@
 * - Disconnect from network (cable or disable Wifi)
 * - Disconnect storage devices
 * - Do not shutdown
-* Conain affected networks
+* Contain affected networks
 * - Isolate systems
 * - Document and block traffic filters
 * Sharing of incident details
 * - Share binaries with national CSIRT / security vendor, ISACs
 * - Share with sector
-* - Share technical and non technical information
+* - Share technical and non-technical information
 * Monitor for new infections
 * Scan other systems for indicators
 * - Understand the scope and how widespread the incident is
-* - Do not limit to immediate adjecent systems / networks
+* - Do not limit to immediate adjacent systems / networks
 * Scan logs for indicators
 * - Retroactive
 * - Find historical traces
