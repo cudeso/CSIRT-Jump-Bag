@@ -1,0 +1,7 @@
+version: '3'
+services:
+  cyberchef:
+    image: "mwalbeck/cyberchef:latest"
+    restart: always
+    ports:
+      - "8080:8080"
