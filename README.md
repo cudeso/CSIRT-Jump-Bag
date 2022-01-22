@@ -63,6 +63,9 @@ Review this checklist [before going on site](go-on-site.md)
 * memoryze
 * Mandiant Redline
 * Volatility
+* MemProcFS 
+* BulkExtractor
+* SuperMem
 
 ## Pi-CSIRT
 * Raspberry Pi
