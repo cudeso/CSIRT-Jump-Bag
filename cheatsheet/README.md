@@ -1,3 +1,16 @@
+## Misc
+
+### Base64
+
+Regular expression to find BASE64 presence in a blob of text
+
+```[a-zA-Z0-9+/=]{30,}```
+
+
+### CyberChef sources
+
+https://github.com/mattnotmax/cyberchef-recipes
+
 ## Network
 
 ### Export files from a pcap
@@ -12,20 +25,37 @@ Wireshark, File, Export objects
 
 ```tshark -V -r file.pcap -T fields -e http.request.full_uri -Y "http.request.uri matches \"/[a-z]+\.php$\```
 
-## WinRM
+## Windows
 
-### List WinRM sessions
+### Magic Bytes files
+
+| Header  | File type  |
+|---|---|
+| ```TVqQ``` | PE File in **base64** encoding  |
+| ```78 9C```  | Zlib  |
+| ```MZ ``` | PE Header   |
+| ```4D 5A```  | PE   |
+| ```5A 4D```  | PE   |
+| ```50 4B``` | Office | 
+| ```50 4B``` | Java Archive | 
+| ```50 4B``` | PKZIP | 
+
+https://www.garykessler.net/library/file_sigs.html
+https://asecuritysite.com/forensics/magic
+
+
+### WinRM
+
+#### List WinRM sessions
 
 ```Get-WSManInstance -ComputerName localhost -ResourceURI Shell -Enumerate```
 
-## Pipes
+### Pipes
 
-### List created pipes
+#### List created pipes
 
 ```Get-ChildItem \\\\.\\pipe\\```
 
-## Windows misc
+### Misc
 
-* Rundll32 withou arguments
-
-
+* Rundll32 without arguments
