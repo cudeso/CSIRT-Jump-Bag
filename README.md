@@ -55,17 +55,18 @@ Review this checklist [before going on site](go-on-site.md)
 * Sysinternals
 * Winpmem
 * FTK Imager
-* Nirsoft tools
+* [Nirsoft tools](https://www.nirsoft.net/utils/index.html)
 * tcpdump
 * Wireshark
 * portmon
 * dumpit
 * memoryze
 * Mandiant Redline
-* Volatility
-* MemProcFS 
+* [Volatility](https://github.com/volatilityfoundation/volatility)
+* [MemProcFS](https://github.com/ufrisk/MemProcFS)
 * BulkExtractor
-* SuperMem
+* [SuperMem](https://github.com/CrowdStrike/SuperMem)
+* [srum-dump](https://github.com/MarkBaggett/srum-dump)
 
 ## Pi-CSIRT
 * Raspberry Pi
