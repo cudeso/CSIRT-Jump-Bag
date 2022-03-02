@@ -59,3 +59,23 @@ https://asecuritysite.com/forensics/magic
 ### Misc
 
 * Rundll32 without arguments
+
+### GPOs
+
+From: [FireEye](https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/wp-ransomware-protection-and-containment-strategies.pdf)
+
+Review the scope of configured GPOS
+```get-gpo -all | export-csv -path “c:\temp\gpo-listing-all.csv” -NoTypeInformation``` 
+
+List existing GPOs and assigned permissions
+
+```
+$permissions = Foreach ($GPO in (Get-GPO -All | Where {$_.DisplayName -like “*”}))
+    {
+        Foreach ($Permission in (Get-GPPermissions $GPO.DisplayName -All | Where {$_.Permission -like “*”}))
+        {
+            New-Object PSObject -property @{GPO=$GPO.DisplayName;Trustee=$Permission.Trustee.Name;Permission=$Permission.Permission}
+        }
+    }
+$permissions | Select GPO,Trustee,Permission | Export-CSV c:\temp\GPO-Permissions.csv -NoTypeInformation
+```
