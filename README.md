@@ -18,10 +18,12 @@ Review this checklist [before going on site](go-on-site.md)
 * Business cards
 
 ## Hardware
+* Put stickers on your hardware. That way you can easily recognize them from the already present gear.
 * Drives
 * * External SSD hard drives (USB)
 * * Drive connectors
 * * Write blockers and/or ComboDock (such as [Forensic ComboDock, model FCDv5.5](https://wiebetech.com/products/forensic-combodock-v5-5/)
+* * NAS
 * Imaging
 * * [TableauForensicImager](https://security.opentext.com/tableau/hardware/details/tx1)
 * * [guymager](https://guymager.sourceforge.io/)
@@ -36,6 +38,9 @@ Review this checklist [before going on site](go-on-site.md)
 * * Digital clock
 * * Network hub
 * * Power multi-socket
+* Network taps
+* * [Dualcomm](https://www.dualcomm.com/collections/featured-products/products/dual-speed-sfp-network-tap) network taps
+* * SFP modules (Multimode / Single-mode)
 * Gear
 * * Anti-static bags
 * * Tape
