@@ -59,14 +59,14 @@ Review this checklist [before going on site](go-on-site.md)
 ## Software
 * LiME
 * [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
-* [Winpmem](https://github.com/Velocidex/c-aff4/releases)
+* [Winpmem](https://github.com/Velocidex/WinPmem)
 * FTK Imager
 * [Nirsoft tools](https://www.nirsoft.net/utils/index.html)
 * tcpdump
 * [Wireshark](https://www.wireshark.org/download.html)
 * portmon
 * dumpit
-* memoryze
+* [memoryze](https://www.fireeye.com/services/freeware/memoryze-download-confirmation.html)
 * [Mandiant Redline](https://www.fireeye.com/services/freeware/redline.html)
 * [Volatility](https://github.com/volatilityfoundation/volatility)
 * [MemProcFS](https://github.com/ufrisk/MemProcFS)
