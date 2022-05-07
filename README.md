@@ -16,6 +16,7 @@ Review this checklist [before going on site](go-on-site.md)
 * Forensic imaging guidelines
 * IR playbook
 * Business cards
+* [SANS Cheat Sheets(https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/)
 
 ## Hardware
 * Put stickers on your hardware. That way you can easily recognize them from the already present gear.
@@ -57,16 +58,16 @@ Review this checklist [before going on site](go-on-site.md)
 
 ## Software
 * LiME
-* Sysinternals
-* Winpmem
+* [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+* [Winpmem](https://github.com/Velocidex/c-aff4/releases)
 * FTK Imager
 * [Nirsoft tools](https://www.nirsoft.net/utils/index.html)
 * tcpdump
-* Wireshark
+* [Wireshark](https://www.wireshark.org/download.html)
 * portmon
 * dumpit
 * memoryze
-* Mandiant Redline
+* [Mandiant Redline](https://www.fireeye.com/services/freeware/redline.html)
 * [Volatility](https://github.com/volatilityfoundation/volatility)
 * [MemProcFS](https://github.com/ufrisk/MemProcFS)
 * BulkExtractor
