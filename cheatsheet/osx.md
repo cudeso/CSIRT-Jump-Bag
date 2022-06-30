@@ -1,3 +1,12 @@
+## Process creation and file creation monitoring
+
+https://objective-see.org/tools.html
+
+```
+sudo ProcessMonitor.app/Contents/MacOS/ProcessMonitor -pretty
+sudo FileMonitor.app/Contents/MacOS/FileMonitor -pretty
+```
+
 ## Tools
 
 https://objective-see.org/tools.html
