@@ -33,6 +33,7 @@ Review this checklist [before going on site](go-on-site.md)
 * Forensic imaging guidelines
 * IR playbook
 * Business cards
+* [SANS Cheat Sheets(https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/)
 
 ## Hardware
 
@@ -76,17 +77,16 @@ Review this checklist [before going on site](go-on-site.md)
 ## Software
 
 * LiME
-* [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) 
-* [Winpmem](https://winpmem.velocidex.com/)
-* [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-5)
+* Sysinternals
+* Winpmem
+* FTK Imager
 * [Nirsoft tools](https://www.nirsoft.net/utils/index.html)
 * tcpdump
-* Wireshark
+* [Wireshark](https://www.wireshark.org/download.html)
 * portmon
 * dumpit
-* [memoryze](https://fireeye.market/apps/211368)
-* [KAPE](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape)
-* [Mandiant Redline](https://fireeye.market/apps/211364)
+* memoryze
+* Mandiant Redline
 * [Volatility](https://github.com/volatilityfoundation/volatility)
 * [MemProcFS](https://github.com/ufrisk/MemProcFS)
 * BulkExtractor
